@@ -11,5 +11,6 @@ public:
 	virtual void Idle() = 0;
 
 	void DrawAxis(float distance);
-	void DrawGrids();
+	void DrawGrids(float size, float step);
+	void DrawPoint();
 };
