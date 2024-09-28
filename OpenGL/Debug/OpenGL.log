@@ -1,2 +1,29 @@
-﻿  Example4.cpp
+﻿  BMPtextureManager.cpp
+  Circulo.cpp
+  Cuadrado.cpp
+  Cubo.cpp
+  Esfera.cpp
+  Example4.cpp
+C:\Users\teamo\Desktop\OpenGL\OpenGL\Example4.cpp(31,28): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\teamo\Desktop\OpenGL\OpenGL\Example4.cpp(34,28): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\teamo\Desktop\OpenGL\OpenGL\Example4.cpp(37,28): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\teamo\Desktop\OpenGL\OpenGL\Example4.cpp(40,28): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\teamo\Desktop\OpenGL\OpenGL\Example4.cpp(43,34): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\teamo\Desktop\OpenGL\OpenGL\Example4.cpp(46,34): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\teamo\Desktop\OpenGL\OpenGL\Example4.cpp(49,34): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\teamo\Desktop\OpenGL\OpenGL\Example4.cpp(52,34): warning C4305: '-=': truncamiento de 'double' a 'float'
+  Example5.cpp
+C:\Users\teamo\Desktop\OpenGL\OpenGL\Example5.cpp(66,43): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\teamo\Desktop\OpenGL\OpenGL\Example5.cpp(88,47): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\teamo\Desktop\OpenGL\OpenGL\Example5.cpp(89,47): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+  Example6.cpp
+  Figura.cpp
+  Figura2D.cpp
+  Figura3D.cpp
+  Material.cpp
+  OpenGL.cpp
+  Piramide.cpp
+  TextureManager.cpp
+  Triangulo.cpp
+  Generando código...
   OpenGL.vcxproj -> C:\Users\teamo\Desktop\OpenGL\Debug\OpenGL.exe

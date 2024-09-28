@@ -1,5 +1,9 @@
 #pragma once
-class Figura3D
+#include "Figura.h"
+class Figura3D :
+    public Figura
 {
+public:
+    Figura3D();
 };
 

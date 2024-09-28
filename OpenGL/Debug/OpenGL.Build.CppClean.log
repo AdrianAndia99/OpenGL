@@ -1,33 +1,49 @@
-c:\users\amd ryzen\desktop\opengl\opengl\debug\vc142.pdb
-c:\users\amd ryzen\desktop\opengl\opengl\debug\vc142.idb
-c:\users\amd ryzen\desktop\opengl\opengl\debug\poligono.obj
-c:\users\amd ryzen\desktop\opengl\opengl\debug\opengl.obj
-c:\users\amd ryzen\desktop\opengl\opengl\debug\figura3d.obj
-c:\users\amd ryzen\desktop\opengl\opengl\debug\example1.obj
-c:\users\amd ryzen\desktop\opengl\opengl\debug\example.obj
-c:\users\amd ryzen\desktop\opengl\opengl\debug\example2.obj
-c:\users\amd ryzen\desktop\opengl\debug\opengl.exe
-c:\users\amd ryzen\desktop\opengl\opengl\debug\opengl.ilk
-c:\users\amd ryzen\desktop\opengl\debug\opengl.pdb
-c:\users\amd ryzen\desktop\opengl\opengl\debug\opengl.res
-c:\users\teamo\desktop\opengl\opengl\debug\example.obj
-c:\users\teamo\desktop\opengl\opengl\debug\example1.obj
-c:\users\teamo\desktop\opengl\opengl\debug\example2.obj
-c:\users\teamo\desktop\opengl\opengl\debug\figura3d.obj
-c:\users\teamo\desktop\opengl\opengl\debug\opengl.obj
-c:\users\teamo\desktop\opengl\opengl\debug\poligono.obj
-c:\users\teamo\desktop\opengl\opengl\debug\opengl.ilk
-c:\users\teamo\desktop\opengl\opengl\debug\opengl.res
-c:\users\teamo\desktop\opengl\opengl\debug\vc142.idb
-c:\users\teamo\desktop\opengl\opengl\debug\vc142.pdb
-c:\users\teamo\desktop\opengl\debug\opengl.pdb
-c:\users\teamo\desktop\opengl\debug\opengl.exe
-c:\users\teamo\desktop\opengl\opengl\debug\opengl.tlog\cl.command.1.tlog
-c:\users\teamo\desktop\opengl\opengl\debug\opengl.tlog\cl.read.1.tlog
-c:\users\teamo\desktop\opengl\opengl\debug\opengl.tlog\cl.write.1.tlog
-c:\users\teamo\desktop\opengl\opengl\debug\opengl.tlog\link.command.1.tlog
-c:\users\teamo\desktop\opengl\opengl\debug\opengl.tlog\link.read.1.tlog
-c:\users\teamo\desktop\opengl\opengl\debug\opengl.tlog\link.write.1.tlog
-c:\users\teamo\desktop\opengl\opengl\debug\opengl.tlog\rc.command.1.tlog
-c:\users\teamo\desktop\opengl\opengl\debug\opengl.tlog\rc.read.1.tlog
-c:\users\teamo\desktop\opengl\opengl\debug\opengl.tlog\rc.write.1.tlog
+d:\opengl\opengl\debug\vc142.pdb
+d:\opengl\opengl\debug\vc142.idb
+d:\opengl\opengl\debug\figura2d.obj
+d:\opengl\opengl\debug\figura.obj
+d:\opengl\opengl\debug\example7.obj
+d:\opengl\opengl\debug\example6.obj
+d:\opengl\opengl\debug\example5.obj
+d:\opengl\opengl\debug\example4.obj
+d:\opengl\opengl\debug\example3.obj
+d:\opengl\opengl\debug\example2.obj
+d:\opengl\opengl\debug\example1.obj
+d:\opengl\opengl\debug\example.obj
+d:\opengl\opengl\debug\esfera.obj
+d:\opengl\opengl\debug\directionlight.obj
+d:\opengl\opengl\debug\cubo.obj
+d:\opengl\opengl\debug\cuadrado.obj
+d:\opengl\opengl\debug\color.obj
+d:\opengl\opengl\debug\circulo.obj
+d:\opengl\opengl\debug\camerathirdperson.obj
+d:\opengl\opengl\debug\camera.obj
+d:\opengl\opengl\debug\bmptexturemanager.obj
+d:\opengl\opengl\debug\vector3.obj
+d:\opengl\opengl\debug\triangulo.obj
+d:\opengl\opengl\debug\transform.obj
+d:\opengl\opengl\debug\texturemanager.obj
+d:\opengl\opengl\debug\piramide.obj
+d:\opengl\opengl\debug\opengl.obj
+d:\opengl\opengl\debug\material.obj
+d:\opengl\opengl\debug\lightp.obj
+d:\opengl\opengl\debug\lightd.obj
+d:\opengl\opengl\debug\light.obj
+d:\opengl\opengl\debug\figura3d.obj
+d:\opengl\opengl\debug\example8.obj
+d:\opengl\debug\opengl.exe
+d:\opengl\opengl\debug\opengl.ilk
+d:\opengl\debug\opengl.pdb
+d:\opengl\opengl\debug\opengl.res
+d:\opengl\opengl\debug\vc143.idb
+d:\opengl\opengl\debug\vc143.pdb
+d:\opengl\opengl\debug\opengl.tlog\cl.command.1.tlog
+d:\opengl\opengl\debug\opengl.tlog\cl.items.tlog
+d:\opengl\opengl\debug\opengl.tlog\cl.read.1.tlog
+d:\opengl\opengl\debug\opengl.tlog\cl.write.1.tlog
+d:\opengl\opengl\debug\opengl.tlog\link.command.1.tlog
+d:\opengl\opengl\debug\opengl.tlog\link.read.1.tlog
+d:\opengl\opengl\debug\opengl.tlog\link.write.1.tlog
+d:\opengl\opengl\debug\opengl.tlog\rc.command.1.tlog
+d:\opengl\opengl\debug\opengl.tlog\rc.read.1.tlog
+d:\opengl\opengl\debug\opengl.tlog\rc.write.1.tlog

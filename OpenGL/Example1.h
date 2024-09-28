@@ -12,25 +12,5 @@ public:
 
 	void DrawPoint();
 	void DrawLine();
-	void DrawColoredLine();
-	void DrawLineStrip();
-	void DrawAxes();
-	void DrawAxesXYZ();
-	void DrawGridXZ();
-	void DrawCube();
-	void DrawSphere();
-	void DrawCone();
-	void DrawCylinder();
-	void DrawTetrahedron();
-	void DrawOctahedron();
-	void DrawDodecahedron();
-	void DrawIcosahedron();
-	void DrawPyramid();
-	void DrawFrustumPyramid();
-	void DrawPrism();
-	void DrawOrtoedro();
-	void DrawParalelepipedo();
-	void DrawFrustumCone();
-	void DrawToro();
+	void DrawAxis();
 };
-

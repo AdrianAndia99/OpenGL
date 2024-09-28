@@ -35,20 +35,20 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -88,12 +88,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>freeglut/freeglut/include;glew2/glew-2.1.0/include;Library/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>freeglut/include;glew2/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>glew2/glew-2.1.0/lib/Release/Win32;freeglut/freeglut/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>freeglut/lib;glew2/lib/Release/Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>freeglut.lib;glew32.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -119,12 +119,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>freeglut/freeglut/include;glew2/glew-2.1.0/include;Library/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>glew2/glew-2.1.0/lib/Release/x64;freeglut/freeglut/lib/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -144,23 +142,67 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BMPtextureManager.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraThirdPerson.cpp" />
+    <ClCompile Include="Circulo.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="Cuadrado.cpp" />
+    <ClCompile Include="Cubo.cpp" />
+    <ClCompile Include="DirectionLight.cpp" />
+    <ClCompile Include="Esfera.cpp" />
     <ClCompile Include="Example.cpp" />
     <ClCompile Include="Example1.cpp" />
     <ClCompile Include="Example2.cpp" />
+    <ClCompile Include="Example3.cpp" />
     <ClCompile Include="Example4.cpp" />
+    <ClCompile Include="Example5.cpp" />
+    <ClCompile Include="Example6.cpp" />
+    <ClCompile Include="Figura.cpp" />
+    <ClCompile Include="Figura2D.cpp" />
     <ClCompile Include="Figura3D.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LightD.cpp" />
+    <ClCompile Include="LightP.cpp" />
+    <ClCompile Include="Material.cpp" />
     <ClCompile Include="OpenGL.cpp" />
-    <ClCompile Include="Poligono.cpp" />
+    <ClCompile Include="Piramide.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="Triangulo.cpp" />
+    <ClCompile Include="Vector3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BMPtextureManager.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraThirdPerson.h" />
+    <ClInclude Include="Circulo.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="Cuadrado.h" />
+    <ClInclude Include="Cubo.h" />
+    <ClInclude Include="DirectionLight.h" />
+    <ClInclude Include="Esfera.h" />
     <ClInclude Include="Example.h" />
     <ClInclude Include="Example1.h" />
     <ClInclude Include="Example2.h" />
+    <ClInclude Include="Example3.h" />
     <ClInclude Include="Example4.h" />
+    <ClInclude Include="Example5.h" />
+    <ClInclude Include="Example6.h" />
+    <ClInclude Include="Figura.h" />
+    <ClInclude Include="Figura2D.h" />
     <ClInclude Include="Figura3D.h" />
     <ClInclude Include="IncludeGL.h" />
-    <ClInclude Include="Poligono.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="LightD.h" />
+    <ClInclude Include="LightP.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Piramide.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="Triangulo.h" />
+    <ClInclude Include="Vector3.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="OpenGL.rc" />
